@@ -13,15 +13,17 @@
 		167D2E86216A354500A59D69 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167D2E84216A354500A59D69 /* CustomView.swift */; };
 		167D2E87216A354500A59D69 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167D2E85216A354500A59D69 /* ShadowView.swift */; };
 		167D2E89216A358F00A59D69 /* Shadowable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167D2E88216A358F00A59D69 /* Shadowable.swift */; };
-		C47308EE1EC05934004E9191 /* PersianDatePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47308E41EC05934004E9191 /* PersianDatePicker.framework */; };
-		C47308F31EC05934004E9191 /* PersianDatePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47308F21EC05934004E9191 /* PersianDatePickerTests.swift */; };
+		64B73D582313E6AD00C35C36 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B73D572313E6AD00C35C36 /* Extensions.swift */; };
+		64B73D6F2314E75E00C35C36 /* PersianDatePickerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B73D6E2314E75E00C35C36 /* PersianDatePickerUnitTests.swift */; };
+		64B73D712314E75E00C35C36 /* PersianDatePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47308E41EC05934004E9191 /* PersianDatePicker.framework */; };
+		64B73D782314FA7B00C35C36 /* PersianCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B73D772314FA7B00C35C36 /* PersianCalendar.swift */; };
 		C47308F51EC05934004E9191 /* PersianDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = C47308E71EC05934004E9191 /* PersianDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C47309031EC05953004E9191 /* PersianDateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47308FF1EC05953004E9191 /* PersianDateDataSource.swift */; };
 		C47309051EC05953004E9191 /* PersianDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47309011EC05953004E9191 /* PersianDatePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C47308EF1EC05934004E9191 /* PBXContainerItemProxy */ = {
+		64B73D722314E75E00C35C36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C47308DB1EC05934004E9191 /* Project object */;
 			proxyType = 1;
@@ -38,15 +40,26 @@
 		167D2E85216A354500A59D69 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		167D2E88216A358F00A59D69 /* Shadowable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadowable.swift; sourceTree = "<group>"; };
 		16CACE0B219C47BD008BEC92 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B73D572313E6AD00C35C36 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		64B73D6C2314E75E00C35C36 /* PersianDatePickerUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersianDatePickerUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B73D6E2314E75E00C35C36 /* PersianDatePickerUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersianDatePickerUnitTests.swift; sourceTree = "<group>"; };
+		64B73D702314E75E00C35C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B73D772314FA7B00C35C36 /* PersianCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersianCalendar.swift; sourceTree = "<group>"; };
 		C47308E41EC05934004E9191 /* PersianDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PersianDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47308E71EC05934004E9191 /* PersianDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersianDatePicker.h; sourceTree = "<group>"; };
-		C47308ED1EC05934004E9191 /* PersianDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersianDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C47308F21EC05934004E9191 /* PersianDatePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersianDatePickerTests.swift; sourceTree = "<group>"; };
 		C47308FF1EC05953004E9191 /* PersianDateDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersianDateDataSource.swift; sourceTree = "<group>"; };
 		C47309011EC05953004E9191 /* PersianDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersianDatePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		64B73D692314E75E00C35C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B73D712314E75E00C35C36 /* PersianDatePicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C47308E01EC05934004E9191 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,22 +67,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C47308EA1EC05934004E9191 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C47308EE1EC05934004E9191 /* PersianDatePicker.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64B73D6D2314E75E00C35C36 /* PersianDatePickerUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				64B73D6E2314E75E00C35C36 /* PersianDatePickerUnitTests.swift */,
+				64B73D702314E75E00C35C36 /* Info.plist */,
+			);
+			path = PersianDatePickerUnitTests;
+			sourceTree = "<group>";
+		};
 		C47308DA1EC05934004E9191 = {
 			isa = PBXGroup;
 			children = (
 				C47308E61EC05934004E9191 /* PersianDatePicker */,
-				C47308F11EC05934004E9191 /* PersianDatePickerTests */,
+				64B73D6D2314E75E00C35C36 /* PersianDatePickerUnitTests */,
 				C47308E51EC05934004E9191 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				C47308E41EC05934004E9191 /* PersianDatePicker.framework */,
-				C47308ED1EC05934004E9191 /* PersianDatePickerTests.xctest */,
+				64B73D6C2314E75E00C35C36 /* PersianDatePickerUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,16 +110,10 @@
 				167D2E84216A354500A59D69 /* CustomView.swift */,
 				16CACE0B219C47BD008BEC92 /* Info.plist */,
 				167D2E85216A354500A59D69 /* ShadowView.swift */,
+				64B73D572313E6AD00C35C36 /* Extensions.swift */,
+				64B73D772314FA7B00C35C36 /* PersianCalendar.swift */,
 			);
 			path = PersianDatePicker;
-			sourceTree = "<group>";
-		};
-		C47308F11EC05934004E9191 /* PersianDatePickerTests */ = {
-			isa = PBXGroup;
-			children = (
-				C47308F21EC05934004E9191 /* PersianDatePickerTests.swift */,
-			);
-			path = PersianDatePickerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +130,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		64B73D6B2314E75E00C35C36 /* PersianDatePickerUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B73D742314E75E00C35C36 /* Build configuration list for PBXNativeTarget "PersianDatePickerUnitTests" */;
+			buildPhases = (
+				64B73D682314E75E00C35C36 /* Sources */,
+				64B73D692314E75E00C35C36 /* Frameworks */,
+				64B73D6A2314E75E00C35C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64B73D732314E75E00C35C36 /* PBXTargetDependency */,
+			);
+			name = PersianDatePickerUnitTests;
+			productName = PersianDatePickerUnitTests;
+			productReference = 64B73D6C2314E75E00C35C36 /* PersianDatePickerUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C47308E31EC05934004E9191 /* PersianDatePicker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C47308F81EC05934004E9191 /* Build configuration list for PBXNativeTarget "PersianDatePicker" */;
@@ -140,40 +166,21 @@
 			productReference = C47308E41EC05934004E9191 /* PersianDatePicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C47308EC1EC05934004E9191 /* PersianDatePickerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C47308FB1EC05934004E9191 /* Build configuration list for PBXNativeTarget "PersianDatePickerTests" */;
-			buildPhases = (
-				C47308E91EC05934004E9191 /* Sources */,
-				C47308EA1EC05934004E9191 /* Frameworks */,
-				C47308EB1EC05934004E9191 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C47308F01EC05934004E9191 /* PBXTargetDependency */,
-			);
-			name = PersianDatePickerTests;
-			productName = PersianDatePickerTests;
-			productReference = C47308ED1EC05934004E9191 /* PersianDatePickerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C47308DB1EC05934004E9191 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Farhad;
 				TargetAttributes = {
-					C47308E31EC05934004E9191 = {
-						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = HFUT7Y6C97;
+					64B73D6B2314E75E00C35C36 = {
+						CreatedOnToolsVersion = 11.0;
 						ProvisioningStyle = Automatic;
 					};
-					C47308EC1EC05934004E9191 = {
+					C47308E31EC05934004E9191 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = HFUT7Y6C97;
 						ProvisioningStyle = Automatic;
@@ -194,12 +201,19 @@
 			projectRoot = "";
 			targets = (
 				C47308E31EC05934004E9191 /* PersianDatePicker */,
-				C47308EC1EC05934004E9191 /* PersianDatePickerTests */,
+				64B73D6B2314E75E00C35C36 /* PersianDatePickerUnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		64B73D6A2314E75E00C35C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C47308E21EC05934004E9191 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,16 +222,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C47308EB1EC05934004E9191 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		64B73D682314E75E00C35C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B73D6F2314E75E00C35C36 /* PersianDatePickerUnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C47308DF1EC05934004E9191 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +240,8 @@
 				167D2E87216A354500A59D69 /* ShadowView.swift in Sources */,
 				167D2E89216A358F00A59D69 /* Shadowable.swift in Sources */,
 				167D2E86216A354500A59D69 /* CustomView.swift in Sources */,
+				64B73D582313E6AD00C35C36 /* Extensions.swift in Sources */,
+				64B73D782314FA7B00C35C36 /* PersianCalendar.swift in Sources */,
 				C47309051EC05953004E9191 /* PersianDatePickerView.swift in Sources */,
 				16524A532169DA5E00C1DD16 /* PersianPickerView.swift in Sources */,
 				16524A4F2169D79D00C1DD16 /* PersianDatePickerPresenter.swift in Sources */,
@@ -232,25 +249,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C47308E91EC05934004E9191 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C47308F31EC05934004E9191 /* PersianDatePickerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C47308F01EC05934004E9191 /* PBXTargetDependency */ = {
+		64B73D732314E75E00C35C36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C47308E31EC05934004E9191 /* PersianDatePicker */;
-			targetProxy = C47308EF1EC05934004E9191 /* PBXContainerItemProxy */;
+			targetProxy = 64B73D722314E75E00C35C36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		64B73D752314E75E00C35C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PersianDatePickerUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = None.none.PersianDatePickerUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64B73D762314E75E00C35C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PersianDatePickerUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = None.none.PersianDatePickerUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C47308F61EC05934004E9191 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -394,35 +458,18 @@
 			};
 			name = Release;
 		};
-		C47308FC1EC05934004E9191 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = HFUT7Y6C97;
-				INFOPLIST_FILE = PersianDatePickerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ir.shatel.PersianDatePickerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		C47308FD1EC05934004E9191 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = HFUT7Y6C97;
-				INFOPLIST_FILE = PersianDatePickerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ir.shatel.PersianDatePickerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		64B73D742314E75E00C35C36 /* Build configuration list for PBXNativeTarget "PersianDatePickerUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B73D752314E75E00C35C36 /* Debug */,
+				64B73D762314E75E00C35C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C47308DE1EC05934004E9191 /* Build configuration list for PBXProject "PersianDatePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -437,15 +484,6 @@
 			buildConfigurations = (
 				C47308F91EC05934004E9191 /* Debug */,
 				C47308FA1EC05934004E9191 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C47308FB1EC05934004E9191 /* Build configuration list for PBXNativeTarget "PersianDatePickerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C47308FC1EC05934004E9191 /* Debug */,
-				C47308FD1EC05934004E9191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
